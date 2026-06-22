@@ -1,7 +1,7 @@
 # 🚀 Customer Churn Prediction ML Pipeline
 
 ## 📌 Overview
-This project is a machine learning pipeline designed to predict customer churn using the Telco Customer Churn dataset. It helps in identifying whether a customer will leave or continue using the service based on historical data patterns.
+This project is a machine learning pipeline designed to predict customer churn using the Telco Customer Churn dataset. It helps identify whether a customer will leave or continue using the service based on historical behavior patterns.
 
 ## 🎯 Objective
 To build an end-to-end ML pipeline that:
@@ -18,39 +18,32 @@ To build an end-to-end ML pipeline that:
 - Output: Binary Classification (Churn / No Churn)
 
 ## ⚙️ Workflow
-- Data Loading  
-- Data Cleaning  
-- Exploratory Data Analysis (EDA)  
-- Feature Engineering  
-- Model Training  
-- Model Evaluation  
-- Model Saving using Joblib  
+- Data Loading
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Model Training
+- Model Evaluation
+- Model Saving using Joblib
 
-## 💾 Model Saving
-```python
-import joblib
+## 📁 Files in Repository
+- Telco-Customer-Churn.csv → Dataset  
+- churn_pipeline.pkl → Trained ML Model  
+- notebook.ipynb → Complete training + analysis notebook  
 
-joblib.dump(model, "churn_pipeline.pkl")
-📁 Files in Repository
-Telco-Customer-Churn.csv → Dataset
-churn_pipeline.pkl → Trained ML Model
-notebook.ipynb → Complete training + analysis
-📊 Results
-
+## 📊 Results
 The model predicts:
-
-Customers likely to churn (Yes)
-Customers likely to stay (No)
+- Customers likely to churn (Yes)
+- Customers likely to stay (No)
 
 Evaluation metrics include accuracy, precision, and recall.
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
+Python | Pandas | NumPy | Scikit-learn | Joblib | Jupyter Notebook  
 
-Python | Pandas | NumPy | Scikit-learn | Joblib | Jupyter Notebook
+## 👨‍💻 Author
+Muhammad Abdullah  
+BSCS Student | AI & Machine Learning Enthusiast | Python & ML Developer  
 
-👨‍💻 Author
-
-Muhammad Abdullah
-BSCS Student | AI & Machine Learning Enthusiast | Python & ML Developer
-
-🔗 GitHub Profile: https://github.com/muhammadabdullah-devpk
+## 🔗 GitHub
+https://github.com/muhammadabdullah-devpk
