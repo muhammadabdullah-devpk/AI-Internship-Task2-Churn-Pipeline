@@ -31,7 +31,6 @@ To build an end-to-end ML pipeline that:
 import joblib
 
 joblib.dump(model, "churn_pipeline.pkl")
-
 📁 Files in Repository
 Telco-Customer-Churn.csv → Dataset
 churn_pipeline.pkl → Trained ML Model
