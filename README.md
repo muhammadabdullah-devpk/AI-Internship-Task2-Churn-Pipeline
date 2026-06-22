@@ -1,41 +1,57 @@
-# AI Internship Task 2 - Churn Prediction Pipeline
+# 🚀 Customer Churn Prediction ML Pipeline
 
-## 📊 Project Overview
-This project is part of an AI Internship Task 2.  
-The goal is to build a machine learning pipeline to predict customer churn using the Telco Customer Churn dataset.
+## 📌 Overview
+This project is a machine learning pipeline designed to predict customer churn using the Telco Customer Churn dataset. It helps in identifying whether a customer will leave or continue using the service based on historical data patterns.
 
-The model is trained using machine learning techniques and saved as a pipeline using Joblib for future predictions.
+## 🎯 Objective
+To build an end-to-end ML pipeline that:
+- Processes and cleans raw data
+- Performs feature engineering
+- Trains a classification model
+- Evaluates model performance
+- Saves the trained model for real-world usage
 
----
+## 🧠 Machine Learning Approach
+- Type: Supervised Learning (Classification)
+- Algorithm: Logistic Regression / Random Forest
+- Framework: Scikit-learn
+- Output: Binary Classification (Churn / No Churn)
 
-## 📁 Files in this Repository
-- `news-topic-classifier-bert(ML).ipynb` → Jupyter Notebook (Model training & analysis)
-- `churn_pipeline.pkl` → Trained ML model pipeline (saved using joblib)
-- `Telco-Customer-Churn.csv` → Dataset used for training
-
----
-
-## ⚙️ Workflow Steps
-1. Data Loading
-2. Data Cleaning & Preprocessing
-3. Exploratory Data Analysis (EDA)
-4. Feature Engineering
-5. Model Training
-6. Model Evaluation
-7. Saving Model using Joblib
-
----
-
-## 🤖 Machine Learning Model
-- Algorithm: (Mention your model here e.g. Random Forest / Logistic Regression)
-- Library: Scikit-learn
-- Output: Churn Prediction (Yes/No)
-
----
+## ⚙️ Workflow
+- Data Loading  
+- Data Cleaning  
+- Exploratory Data Analysis (EDA)  
+- Feature Engineering  
+- Model Training  
+- Model Evaluation  
+- Model Saving using Joblib  
 
 ## 💾 Model Saving
-The trained model pipeline is saved using Joblib:
-
 ```python
 import joblib
+
 joblib.dump(model, "churn_pipeline.pkl")
+
+📁 Files in Repository
+Telco-Customer-Churn.csv → Dataset
+churn_pipeline.pkl → Trained ML Model
+notebook.ipynb → Complete training + analysis
+📊 Results
+
+The model predicts:
+
+Customers likely to churn (Yes)
+Customers likely to stay (No)
+
+Evaluation metrics include accuracy, precision, and recall.
+
+🛠️ Tech Stack
+
+Python | Pandas | NumPy | Scikit-learn | Joblib | Jupyter Notebook
+
+👨‍💻 Author
+
+Muhammad Abdullah
+BSCS Student | AI & Machine Learning Enthusiast | Python & ML Developer
+
+🔗 GitHub Profile: https://github.com/muhammadabdullah-devpk
